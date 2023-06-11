@@ -1,1 +1,3 @@
-# ruby_notes
+# tech_notes
+
+Table of Content:
