@@ -15,3 +15,6 @@ SELECT nspname || '.' || relname AS "relation",
     AND nspname !~ '^pg_toast'
   ORDER BY pg_total_relation_size(C.oid) DESC;
 ```
+
+### Relations
+<img width="541" alt="Screenshot 2023-06-12 at 00 50 13" src="https://github.com/erimicel/tech_notes/assets/17678162/0f4016cd-c896-49db-a247-976aee9c9e45">
