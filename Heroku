@@ -1,0 +1,2 @@
+## download backup
+heroku pg:backups:download
