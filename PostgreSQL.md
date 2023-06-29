@@ -18,3 +18,7 @@ SELECT nspname || '.' || relname AS "relation",
 
 ### Relations
 <img width="541" alt="Screenshot 2023-06-12 at 00 50 13" src="https://github.com/erimicel/tech_notes/assets/17678162/0f4016cd-c896-49db-a247-976aee9c9e45">
+
+
+### Faster Counter
+https://www.citusdata.com/blog/2016/10/12/count-performance/
