@@ -4,7 +4,7 @@ Installing `mysql2` gem errors on m1 Mac.
 
 # Solution
 
-Make sure `mysql`, `openssl` and `zstd` are installed on Mac via Homebrew.
+Make sure `mysql`, `openssl` are installed on Mac via Homebrew.
 
 ```
 brew install mysql openssl zstd
