@@ -16,6 +16,9 @@ Install `mysql2` gem.
 gem install mysql2 -v '0.5.3' -- --with-mysql-config=$(brew --prefix mysql)/bin/mysql_config --with-ldflags="-L$(brew --prefix zstd)/lib -L$(brew --prefix openssl)/lib" --with-cppflags=-I$(brew --prefix openssl)/include
 ```
 
+`gem install mysql2 -v 0.5.5 -- --with-ldflags=\"-L/usr/local/opt/openssl@3/lib\"`
+With exact path
+
 If root password forgotten:
 `mysql.server stop`
 Then, start MySQL server in safe mode
